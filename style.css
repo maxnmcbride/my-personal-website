@@ -1,5 +1,20 @@
+.myDiv {min-width: 100%; 
+        min-height:100%;
+        width: 100%
+        height: auto;
+      }
+
+.gradient-bg{
+  background-color: aquamarine;
+  background-image: -webkit-gradient(linear, 0%, 0%, 0% 100%, from (aquamarine), to(#9932cc);
+  background-image: -webkit-linear-gradient(top,aquamarine, #9932cc);
+  background-image: -moz-linear-gradient(top,aquamarine, #9932cc);
+  background-image: -ms-linear-gradient(top,aquamarine, #9932cc);
+  background-image: -o-linear-gradient(top,aquamarine, #9932cc);
+}
+
 body {
-    background: #4f4f4f;
+    background: linear-gradient(red: blueviolet);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
